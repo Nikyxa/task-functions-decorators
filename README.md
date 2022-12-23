@@ -4,10 +4,10 @@ Read this guideline before completing the task:
 [Guideline](https://github.com/ketstap162/tasks-guideline)
 
 ## Your task
-You have function transform_nums that takes a list of different data types and your task is:
+You have function `f1` that takes a list of different data types and your task is:
 1. To filter this list and return only integrals using `filter_nums`;
 2. To double integers using `double_nums`;
-3. To use the format which you can see in the example below and transform your list in string using `transform_nums`.
+3. To use the format which you can see in the example below and transform your list into string using `transform_nums`.
 
 
 <details>
@@ -24,6 +24,7 @@ def f1(items: list):
            f"After transformation: {', '.join(items)}."
 
 items = [1, "5", "main", 2.4, 3, ["a", "b"], {1, 2, 3}, 9]
+
 f1(items) == "To transform this list into string we need to decorate it first!"
              "Given list: [1, "5", "main", 2.4, 3, ["a", "b"], {1, 2, 3}, 9]"
              "After transformation: "1^2 = 1, 3^2 = 9, 9^2 = 81."
