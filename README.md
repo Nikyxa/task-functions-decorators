@@ -20,7 +20,6 @@ You should make your given functions <code>filter_nums</code>, <code>double_nums
 @Your decorators are here
 def f1(items: list):
     return f"To transform this list into string we need to decorate it first!"
-           f"Given list: {items}"
            f"After transformation: {', '.join(items)}."
 
 items = [1, "5", "main", 2.4, 3, ["a", "b"], {1, 2, 3}, 9]
